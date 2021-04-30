@@ -1,14 +1,16 @@
 import React from "react";
 
 function Table(props) {
+    console.log(props);
     return (
-        <table className="table">
+        <table className="table-lg table-dark">
   <thead>
     <tr>
+      <th scope="col">Image</th>
       <th scope="col">ID Number</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
+      <th scope="col">Name</th>
       <th scope="col">Email</th>
+      <th scope="col">Cellphone</th>
       <th scope="col">Location</th>
     </tr>
   </thead>
