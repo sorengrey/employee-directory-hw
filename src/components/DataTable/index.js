@@ -3,8 +3,6 @@ import React from "react";
 function DataTable(props){
   return(
     <div>
-    <br />
-    <br />
     <table className="table table-dark table-sortable text-center">
     <thead>
       <tr>
